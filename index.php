@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .about-box {
+            background-color: #f7f7f7;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -20,8 +29,10 @@
     </header>
     <main>
         <section>
-            <h2>About Us</h2>
-            <p>Insert your about us content here.</p>
+            <div class="about-box">
+                <h2>About Us</h2>
+                <p>Insert your about us content here. You can provide a brief introduction to your website or yourself in this section.</p>
+            </div>
         </section>
         <section>
             <h2>Services</h2>
